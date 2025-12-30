@@ -1,0 +1,11 @@
+├── docs/                   # Contains your 5-10 Page PDF report
+├── data/                   # Dataset files (CSV/JSON)
+├── notebooks/              # Jupyter Notebooks for EDA and Training
+│   ├── 01_eda.ipynb        # Exploratory Data Analysis
+│   └── 02_training.ipynb   # Model building & Evaluation
+├── src/                    # Source code for production
+│   ├── preprocess.py       # Data cleaning functions
+│   ├── model.py            # AI model architecture
+│   └── main.py             # Script to run the full workflow
+├── requirements.txt        # pandas, scikit-learn, matplotlib, seaborn
+└── README.md               # Clear project overview and setup guide
